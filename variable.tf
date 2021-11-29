@@ -16,7 +16,7 @@ variable "aws_credentials" {
 }
 
 variable "yourname" {
-  default = ""
+  default = "nestor"
 }
 
 # dev or poc
@@ -33,7 +33,7 @@ variable "private_subnet" {
 }
 
 variable "dns_zone_dns_name" {
-  default = ""
+  default = "nestorlee.com"
 }
 
 variable "RS_release" {
@@ -45,7 +45,7 @@ variable "RS_admin" {
 }
 
 variable "route53zoneid"{
-  default = ""
+  default = "Z06631591BKKO5YQBQLNV"
 }
 
 variable "gcp_instance_type"{
