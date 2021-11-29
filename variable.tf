@@ -45,7 +45,7 @@ variable "RS_admin" {
 }
 
 variable "route53zoneid"{
-  default = "Z06631591BKKO5YQBQLNV"
+  default = ""
 }
 
 variable "gcp_instance_type"{
