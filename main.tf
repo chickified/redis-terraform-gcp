@@ -12,12 +12,6 @@ provider "aws"{
 ######################################################################
 
 
-#output "rs_ui_ip" {
-#  value = flatten([ "https://${aws_route53_record.node1Arecord.name}:8443" , 
-#                    "https://${aws_route53_record.node2Arecord.name}:8443" ,
-#                    "https://${aws_route53_record.node3Arecord.name}:8443" ])
-#}
-
 output "rs_cluster_dns" {
 	value = "rscluster.${var.dns_zone_dns_name}"
 }
